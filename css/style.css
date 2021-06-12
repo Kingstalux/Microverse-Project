@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .box {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .box {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0px;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .box:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  #container{
+    margin-top: 150px;
+  }
+  .price{
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .btn {
+    background-color: #fbff24;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+  }
+  #header img{
+    position: fixed;
+  }
+
+  body {
+    background-color: rgb(207, 204, 204);
+    font-family: sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  #form{
+    text-align: center;
+  }
+  #video{
+  	width:600px;
+  }
+  .icon {
+    width: 7%;
+    float: left;
+    padding: 20px;
+}
+  #form {
+    padding: 3rem;
+  }
+  #form :hover{
+    cursor: pointer;
+  }
+  #footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  ul {
+      list-style: none;
+  }
+  #footer a {
+      text-decoration: none;
+      color: white;
+  }
+  #header {
+      display: flex;
+  }
+  #nav-bar {
+      margin-left: 1100px;
+      position: fixed;
+      float: right;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      background-color:rgb(207, 204, 204);
+      top:0px;
+      justify-content: space-between;
+      align-items: center;
+  }
+  #nav-bar a{
+    text-decoration: none;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+  }
+  .Features {
+      padding: 1rem;
+      
+  }
+  @media only screen and (max-width: 800px) {
+      #navbar {
+          flex-direction: column;
+
+      }
+  }
+      
